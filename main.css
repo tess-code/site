@@ -20,13 +20,20 @@ body {
     border-top-left-radius: 15px;
 }
 
+.container h1 {
+    color: var(--sec-color);
+}
+
+.container h2 {
+    color: #8d7c96;
+}
+
 .nav {
     list-style-type: none;
-    width: 1140px;
+    width: 1130px;
     margin: 0px 100px;
-    padding-left: 8px;
+    padding-left: 0px;
     overflow: hidden;
-    position: fixed;
     background-color: var(--prim-color);
     border-style: solid;
     border-width: 1px;
@@ -53,4 +60,61 @@ body {
     display: block;
     color: var(--prim-color);
     background-color: var(--sec-color);
+}
+
+.main {
+    width: 800px;
+    padding: 25px 25px;
+    background-color: var(--prim-color);
+    margin-top: 15px;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--sec-color);
+    border-radius: 15px;
+}
+
+#side {
+    text-align: center;
+    background-color: var(--prim-color);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--sec-color);
+    border-width: 1px;
+    width: 250px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#meIcon{
+    width: 150px;
+}
+
+.social {
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: var(--prim-color);
+    height: 25px;
+    width: 1333px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.footer p{
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+#anchor {
+    text-decoration: underline;
+    text-decoration-color: #9e5f9e;
+    color: blueviolet;
+    float: right;
 }
